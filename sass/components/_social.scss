@@ -1,0 +1,33 @@
+.socials {
+  text-decoration: none;
+  display: flex;
+  
+  margin-top: 20px;
+  justify-content: center;
+   
+}
+
+.socials__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.socials__icon {
+  fill: $color5;
+}
+
+.socials__item{
+  padding: 0 5px;
+  padding-bottom: 25px;
+}
+
+.socials__link:hover, 
+.socials__link:focus {
+  border-radius: 30px;
+  background-color: #2196F3;  
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

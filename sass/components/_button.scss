@@ -1,0 +1,160 @@
+.button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: $accent-color;
+  color: $color1;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button__link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.button__link-text{
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background-color: $accent-color;
+  color: $color1;
+  font-family: inherit;
+  outline: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  
+}
+.button__link-img{
+  width: 24px;
+  height: 24px;
+  fill: $color1;
+}
+ .button.link-submit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $accent-color;
+  color: $color1;
+  font-weight: 700;
+  font-size: 16px; 
+ }
+ 
+button {
+  font-family: inherit;
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+button:hover,
+button:focus {
+  color: $accent-color;
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.button-items {
+  font-weight: 500;
+  border-color: transparent;
+}
+
+.button-item {
+  font-size: 16px;  
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  line-height: 1.62;
+  margin-right: 8px;
+  padding: 8px 22px;
+  text-decoration: none;
+  cursor: pointer;
+  color: $tittle-text-color;
+  background-color: #f5f4fa;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+.button-item.current{
+  background-color: $color3;
+  color: $color1;
+}
+
+.button-item:hover,
+.button-item:focus
+.portfolio-tittles {
+  color: $color1;
+  background-color: $color3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-close{
+  position: absolute;
+  display: flex;
+  cursor: pointer;
+  top: 8px;
+  right: 8px;
+
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background: $color1;
+}
+.btn-close:hover .btn-icon,
+.btn-close:focus .btn-icon{
+  border-color: $accent-color;
+  fill: $accent-color;
+}
+.btn-close__icon{
+  fill: $primary-text-color;
+}
+.btn-icon{
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: $primary-text-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-icon__checkbox{
+  position: relative;
+  top: -3px;
+  transform: translateY(5px);
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid $primary-text-color;
+  background-origin: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+.button.submit-button{
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background-color: $accent-color;
+  color: $color1;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  
+  min-width: 200px;
+  min-height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  
+}
