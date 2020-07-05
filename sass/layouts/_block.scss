@@ -6,7 +6,17 @@
   padding-top: 94px;
   /* outline:1px solid teal; */
   width: 1200px;
+
+  
+  @media screen and (min-width: 768px){
+    flex-basis: 50%;
+  }
+
+  @media screen and (min-width:1170px){
+    flex-basis: 33.3333%;
+  }
 }
+
 
 .container-block__tittle {
   text-align: center;

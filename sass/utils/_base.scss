@@ -21,6 +21,11 @@ body {
   margin: 0;
   overflow: hidden auto;
   
+  
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 ul {

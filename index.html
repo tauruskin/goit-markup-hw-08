@@ -19,51 +19,64 @@
   <!-- Шапка -->
   <header class="header">
     <div class="container">
-      <nav class="navigation">
-        <div class="navigation__logo">
-          <a href aria-label="Logo" class="navigation__icon-link">
-            <svg class="navigation__icon">
-              <use xlink:href="./img/sprite.svg#icon-web-studio"></use>
-            </svg>
-          </a>
-        </div>
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="./index.html" class="navigation__link current">
-              Студия
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a href="./portfolio.html" class="navigation__link">
-              Портфолио
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a href="" class="navigation__link">
-              Контакты
-            </a>
-          </li>
-        </ul>
-        <ul class="contacts-nav">
-          <li class="contacts-nav__item">
-            <a href="mailto:info@devstudio.com" class="contacts-nav__link">
-              <svg class="contacts-nav__icon">
-                <use xlink:href="./img/sprite.svg#icon-envelope"></use>
+      <div class="container nav">
+        <nav class="navigation">
+          <div class="navigation__logo">
+            <a href aria-label="Logo" class="navigation__icon-link">
+              <svg class="navigation__icon">
+                <use xlink:href="./img/sprite.svg#icon-web-studio"></use>
               </svg>
-              <span class="contacts-nav__text">info@devstudio.com</span>
+              <button type="button" class="menu-button is-open" aria-expanded="false" aria-checked="menu-container"
+                data-menu-button>
+                <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                  <use class="icon-cross" xlink:href="./img/sprite.svg# icon-checkbox"></use>
+                  <use class="icon-menu" xlink:href="./img/sprite.svg#icon-menu-burger"></use>
+                </svg>
+              </button>
+
             </a>
-          </li>
-          <li class="contacts-nav__item">
-            <a href="tel:380961111111" class="contacts-nav__link">
-              <svg class="contacts-nav__icon">
-                <use xlink:href="./img/sprite.svg#icon-phone"></use>
-              </svg>
-              <span class="contacts-nav__text">+38 096 111 11 11</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+          </div>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link current">
+                  Студия
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="./portfolio.html" class="navigation__link">
+                  Портфолио
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+            <ul class="contacts-nav">
+              <li class="contacts-nav__item">
+                <a href="mailto:info@devstudio.com" class="contacts-nav__link">
+                  <svg class="contacts-nav__icon">
+                    <use xlink:href="./img/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  <span class="contacts-nav__text">info@devstudio.com</span>
+                </a>
+              </li>
+              <li class="contacts-nav__item">
+                <a href="tel:380961111111" class="contacts-nav__link">
+                  <svg class="contacts-nav__icon">
+                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                  </svg>
+                  <span class="contacts-nav__text">+38 096 111 11 11</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
+
   </header>
   <main class="layout">
     <section class="layout-section">
