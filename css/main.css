@@ -460,12 +460,12 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 700px;
 }
 
 @media screen and (min-width: 1200px) {
   .layout-section-title {
     font-size: 44px;
+    width: 700px;
   }
 }
 
@@ -493,7 +493,6 @@
   margin-right: auto;
 }
 
-/* Valeus section */
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
