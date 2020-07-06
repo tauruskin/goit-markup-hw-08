@@ -4,7 +4,7 @@
 
 
 .logo {
-    @include logo($main-color);
+    @include logo($tittle-text-color);
     @extend .logo__font;
     text-decoration: none;
     // padding-top: 16px;
@@ -45,7 +45,7 @@
     
 &--invert {
         @extend .logo__font;
-        @include logo($main-color-invert);
+        @include logo($tittle-text-color-invert);
         text-decoration: none;
     }
     

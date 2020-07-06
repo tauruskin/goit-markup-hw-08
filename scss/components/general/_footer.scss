@@ -53,7 +53,7 @@
  /* Address */
  
  .address {
-     color: $main-color-invert;
+     color: $tittle-text-color-invert;
      font-size: 14px;
      line-height: 1.71;
      font-style: normal;
@@ -83,7 +83,7 @@
  
  .invitation {
      &__title {
-         color: $third-turn-color;
+         color: $color1;
          font-weight: 700;
          font-size: 14px;
          line-height: 1.14;
@@ -105,7 +105,7 @@
  /* Submit */
  
  .submit {
-     color: $third-turn-color;
+     color: $color1;
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;

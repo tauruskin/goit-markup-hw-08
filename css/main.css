@@ -460,6 +460,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  width: 700px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -487,7 +488,7 @@
   cursor: pointer;
 }
 
-.button__center {
+.button--center {
   margin-left: auto;
   margin-right: auto;
 }
