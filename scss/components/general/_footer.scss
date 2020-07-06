@@ -1,0 +1,189 @@
+ /* Footer */
+ 
+ .footer {
+     background-color: $footer-background-color;
+     text-align: center;
+     padding-top: 60px;
+     padding-bottom: 60px;
+     &__contacts {
+         margin-bottom: 60px;
+         @media screen and (min-width: 768px) {
+             margin-bottom: 0;
+         }
+         
+@media screen and (min-width: 1200px) {
+             text-align: left;
+         }
+         
+
+     }
+     
+&__items {
+         @media screen and (min-width: 1200px) {
+             display: flex;
+             justify-content: space-between;
+             align-items: baseline;
+         }
+         
+
+     }
+     
+&__wrap-tablet {
+         @media screen and (max-width: 1199px) {
+             margin-bottom: 60px;
+         }
+         
+@media screen and (min-width: 768px) {
+             display: flex;
+             justify-content: space-around;
+         }
+         
+@media screen and (min-width: 1200px) {
+             display: flex;
+             justify-content: space-between;
+             align-items: baseline;
+             width: 506px;
+         }
+         
+
+     }
+     
+
+ }
+ /* Address */
+ 
+ .address {
+     color: $main-color-invert;
+     font-size: 14px;
+     line-height: 1.71;
+     font-style: normal;
+     display: flex;
+     flex-direction: column;
+     &__local {
+         margin: 0 0 8px 0;
+         padding: 0;
+     }
+     
+&__mail {
+         display: block;
+         margin-bottom: 8px;
+         text-decoration: none;
+         color: rgba(255, 255, 255, 0.6);
+     }
+     
+&__tel {
+         display: block;
+         text-decoration: none;
+         color: rgba(255, 255, 255, 0.6);
+     }
+     
+
+ }
+ /* Invitation */
+ 
+ .invitation {
+     &__title {
+         color: $third-turn-color;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 1.14;
+         text-transform: uppercase;
+         @media screen and (min-width: 1200px) {
+             display: block;
+             width: 206px;
+             text-align: left;
+             margin-bottom: 20px;
+         }
+         
+
+     }
+     
+// &__networks {
+     // list-style: none;
+     //      }
+ }
+ /* Submit */
+ 
+ .submit {
+     color: $third-turn-color;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     text-transform: uppercase;
+     display: inline-block;
+     margin-bottom: 20px;
+     @media screen and (min-width: 1200px) {
+         display: block;
+         width: 220px;
+         text-align: left;
+     }
+     
+&__wrap-tablet {
+         @media screen and (min-width: 768px) {
+             margin-left: auto;
+             margin-right: auto;
+             text-align: center;
+             max-width: 450px;
+         }
+         
+@media screen and (min-width: 1200px) {
+             margin-left: 0;
+             margin-right: 0;
+             text-align: center;
+             max-width: 570px;
+         }
+         
+
+     }
+     
+&__list {
+         margin: 0;
+         color: rgba(255, 255, 255, 0.6);
+         list-style: none;
+         padding: 0;
+         @media screen and (min-width: 1200px) {
+             display: flex;
+             align-items: center;
+         }
+         
+
+     }
+     
+&__item {
+         margin-bottom: 20px;
+         @media screen and (min-width: 1200px) {
+             margin-bottom: 0;
+             margin-right: 12px;
+             width: 355px;
+         }
+         
+
+     }
+     
+&__mail {
+         font-size: 16px;
+         background-color: inherit;
+         color: inherit;
+         border: 1px solid rgba(255, 255, 255, 0.3);
+         width: 100%;
+         padding: 15px 12px;
+         letter-spacing: 0.03em;
+         border-radius: 4px;
+     }
+     
+&__button {
+         min-width: 200px;
+         display: flex;
+         justify-content: space-between;
+         padding-right: 28px;
+         padding-left: 28px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     
+&__icon {
+         fill: #ffffff;
+     }
+     
+
+ }

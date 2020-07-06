@@ -1,0 +1,47 @@
+.social-network {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    padding-bottom: 24px;
+    &__footer {
+        width: 206px;
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+&__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        fill: $secondary-logo-color;
+        transition: background-color $transition, fill $transition;
+        @media screen and (min-width: 1200px) {
+            border-radius: 50%;
+            &:hover,
+            &:focus {
+                background-color: $button-background;
+                fill: $button-color;
+                cursor: pointer;
+            }
+            
+
+        }
+        
+
+    }
+    
+&__link--dark {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        fill: $button-color;
+    }
+    
+
+}

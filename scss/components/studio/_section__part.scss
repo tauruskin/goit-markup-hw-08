@@ -1,0 +1,123 @@
+/* section__part section  */
+
+.section__part {
+    background-color: $secondary-background-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+&__title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.17;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+        @media screen and (min-width: 1200px) {
+            font-size: 36px;
+        }
+        
+
+    }
+    
+&__list {
+        // display: flex;
+        // justify-content: space-between;
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+
+    }
+    
+
+}
+
+
+
+/* Card list */
+
+.card {
+    // width: calc((100% - 90px) / 4);
+    background-color: $main-background-color;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    &:last-child {
+        margin-bottom: 0;
+    }
+    
+@media screen and (min-width: 768px) {
+        width: calc((100% - 30px) / 2);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+        
+&:nth-last-child(-n+2) {
+            margin-bottom: 0;
+        }
+        
+&:nth-child(2n) {
+            margin-right: 0;
+        }
+        
+
+    }
+    
+@media screen and (min-width: 1200px) {
+        width: calc((100% - 90px) / 4);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        &:nth-child(2n) {
+            margin-right: 30px;
+        }
+        
+&:last-child {
+            margin-right: 0;
+        }
+        
+&:nth-child(n+1) {
+            margin-bottom: 0;
+        }
+        
+
+    }
+    
+&__img {
+        display: block;
+        margin-bottom: 30px;
+        // border-top-left-radius: 4px;
+        // border-top-right-radius: 4px;
+        width: 100%;
+    }
+    
+&__profession {
+        color: $secondary-color;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    
+&__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+
+}
