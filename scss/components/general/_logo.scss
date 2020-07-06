@@ -1,53 +1,46 @@
 @mixin logo($color) {
-    color: $color;
+  color: $color;
 }
 
 
 .logo {
-    @include logo($tittle-text-color);
-    @extend .logo__font;
-    text-decoration: none;
-    // padding-top: 16px;
-    // padding-bottom: 16px;
-    @media screen and (min-width: 768px) {
-        display: flex;
-        margin-right: 81px;
-        padding-top: 26px;
-        padding-bottom: 26px;
-    }
+  @include logo($tittle-text-color);
+  @extend .logo__font;
+  text-decoration: none;
+  
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-right: 81px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
     
-&__font {
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 24px;
-        letter-spacing: 0.03em;
-        @media screen and (min-width: 1200px) {
-            font-size: 26px;
-        }
-        
+  &__font {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    @media screen and (min-width: 1200px) {
+      font-size: 26px;
+    }      
 
-    }
-    
-&__header {
-        // margin-right: 85px;
-    }
-    
-&__footer {
-        display: block;
-        margin-bottom: 20px;
-        text-decoration: none;
-    }
-    
-&--blue {
-        @include logo($accent-primary-color);
-        @extend .logo__font;
-    }
-    
-&--invert {
-        @extend .logo__font;
-        @include logo($tittle-text-color-invert);
-        text-decoration: none;
-    }
-    
+  }
+           
+  &__footer {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+      
+  &--blue {
+    @include logo($accent-primary-color);
+    @extend .logo__font;
+  }
+      
+  &--invert {
+    @extend .logo__font;
+    @include logo($tittle-text-color-invert);
+    text-decoration: none;
+  }    
 
 }
