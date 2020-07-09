@@ -71,6 +71,7 @@
       text-transform: uppercase;
       margin-top: 0;
       text-align: center;
+
       @media screen and (min-width: 768px) {
         text-align: left;
       }
@@ -81,6 +82,7 @@
     &__list {
       padding: 0;
       margin: 0;
+      
       @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
